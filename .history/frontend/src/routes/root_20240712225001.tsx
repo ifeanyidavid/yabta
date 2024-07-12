@@ -1,0 +1,21 @@
+import React from 'react'
+
+import { LoginForm } from "@/components/login-form";
+
+function App() {
+  return (
+
+  );
+}
+
+export default App;
+
+export default function Root() {
+  return (
+    <div className="relative flex min-h-screen flex-col bg-background">
+    <div className="w-full h-screen flex items-center justify-center theme-zinc">
+      <LoginForm />
+    </div>
+  </div>
+  )
+}
